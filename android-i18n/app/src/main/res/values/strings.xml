@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">android-i18n</string>
+    <string name="my_string_name">Hello world!</string>
+
+    <plurals name="my_cats">
+        <item quantity="one">I have %s cat</item>
+        <item quantity="other">I have %s cats</item>
+    </plurals>
+</resources>

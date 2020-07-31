@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Туториал по локализации</string>
+    <string name="my_string_name">Привет мир!</string>
+
+    <plurals name="my_cats">
+        <item quantity="one">У меня %s кот</item>
+        <item quantity="few">У меня %s кота</item>
+        <item quantity="many">У меня 5 кошек</item>
+    </plurals>
+</resources>
