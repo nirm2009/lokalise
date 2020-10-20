@@ -1,0 +1,6 @@
+{% load i18n %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}  {#1#}
+
+<html dir="{% if LANGUAGE_BIDI %}rtl{% else %}ltr{% endif %}">  {#2#}
+I am displayed in the right direction.
+</html>

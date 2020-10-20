@@ -1,0 +1,18 @@
+{% load i18n %}
+
+<form action="{% url 'set_language' %}" method="post"> {#1#}
+    {% csrf_token %}
+    <select name="language">
+        {% get_current_language as LANGUAGE_CODE %}  # user's currently selected language
+        {% get_available_languages as LANGUAGES %}  # list of tuples eg. [('en-us','English'),('it','Italiano')]
+        {% get_language_info_list for LANGUAGES as languages %}  # retrieve information for a given list of languages
+        {% for language in languages %}
+            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                {{ language.name_local }} ({{ language.code }})
+            </option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Switch">
+</form>
+
+{% translate "I am localized inside the template." %}
