@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinI18n.SwitchPage"
+             xmlns:langres="clr-namespace:XamarinI18n.resources">
+    <!--Localize through XAML-->
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="greeting.png" />
+            <Label Text="{x:Static langres:Lang.welcome}" />
+            <Button Text="{x:Static langres:Lang.switch_en}" Clicked="Button_Switch_EN_Clicked" />
+            <Button Text="{x:Static langres:Lang.switch_it}" Clicked="Button_Switch_IT_Clicked" />
+
+            <DatePicker x:Name="DatePickerCurrentDate" DateSelected="DatePickerCurrentDate_DateSelected"></DatePicker>
+            <Label x:Name="LabelCurrentDate"  Text="Choose a date" />
+
+            <Button Text="Get Time zone details" Clicked="Button_Get_TZ_Clicked" />
+            <Label x:Name="LabelCurrentTimeZone" Text="Current time zone: "/>
+            <Label x:Name="LabelCurrentTimeZoneValue"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

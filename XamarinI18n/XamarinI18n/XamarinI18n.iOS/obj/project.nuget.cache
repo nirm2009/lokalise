@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PVW8Kj0p56ftA7as+o9qtEgfIXux9YMyS3RUp33mfiVF0w0LEP4+H+cGJ8McD3AfgE2y97wfqK0zouzUVj2oGA==",
+  "success": true,
+  "projectFilePath": "D:\\DriveSync\\FreeLa\\Lokalise\\proj\\XamarinI18n\\XamarinI18n\\XamarinI18n.iOS\\XamarinI18n.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
