@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KotlinI18n</string>
+    <string name="welcome">أهلا بك!</string>
+    <string name="change_lang">تغيير اللغة</string>
+    <string name="located_at">هل انت موجود في %s?</string>
+</resources>

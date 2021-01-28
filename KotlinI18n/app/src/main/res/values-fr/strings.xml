@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KotlinI18n</string>
+    <string name="change_lang">Changer de langue</string>
+    <string name="welcome">Bienvenu!</string>
+    <string name="located_at">"Êtes-vous situé à %s?"</string>
+</resources>

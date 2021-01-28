@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KotlinI18n</string>
+    <string name="welcome">Welcome!</string>
+    <string name="change_lang">Change Language</string>
+    <string name="located_at">Are you located at %s?</string>
+    <plurals name="patients_reported">
+        <item quantity="one">%s patient</item>
+        <item quantity="other">%s patients</item>
+    </plurals>
+</resources>

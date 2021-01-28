@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KotlinI18n</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="change_lang">Изменить язык</string>
+    <string name="located_at">Вы находитесь на %s?</string>
+    <plurals name="patients_reported">
+        <item quantity="one">%s пациент</item>
+        <item quantity="few">%s пациента</item>
+        <item quantity="many">%s пациентов</item>
+    </plurals>
+</resources>
