@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         changeLangButton.setText(R.string.change_lang) // 4
 
         changeLangButton.setOnClickListener {
-            val languages = arrayOf("عربى", "français", "English")
+            val languages = arrayOf("عربى", "français", "English", "Russian") // 1
 
             val langSelectorBuilder = AlertDialog.Builder(this@MainActivity)
             langSelectorBuilder.setTitle("Choose language:")
@@ -41,6 +41,9 @@ class MainActivity : AppCompatActivity() {
                     2 -> {
                         setLocale("en")
                     }
+                    3 -> { // 2
+                        setLocale("ru")
+                    }
                 }
                 recreate()
                 dialog.dismiss()
@@ -51,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 //        numFormat()
 //        textFormat()
 //        pluralization()
-//        dateAndTime()
+        dateAndTime()
     }
 
     private fun loadLocale() {
