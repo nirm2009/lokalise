@@ -1,0 +1,12 @@
+﻿@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<ASPNETCoreL10n.SharedResource> SharedLocalizer
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UsingSharedResource</title>
+</head>
+<body>
+    <p>Shared resource sent from Controller: @ViewData["sharedResourceSentFromController"]</p>
+    <p>Shared resource received by this View: @SharedLocalizer["localizedUsingSharedResources"]</p>
+</body>
+</html>
