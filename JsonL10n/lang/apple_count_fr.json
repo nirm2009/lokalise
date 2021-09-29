@@ -1,0 +1,11 @@
+{
+  "": {
+    "language": "fr",
+    "plural-forms": "nplurals=2; plural=n>1;"
+  },
+  "Welcome": "Bienvenue",
+  "%1 apple picked": [
+    "%1 pomme cueillie",
+    "%1 pommes cueillies"
+  ]
+}

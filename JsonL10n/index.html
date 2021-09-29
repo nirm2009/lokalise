@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON L10n</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="gettext.js"  type="text/javascript"></script>
+    <script>
+        // Use language resource JSON on code ///////////////////////////////////////////////////////////////////////
+        langResourcesArr = {
+            "en": {
+                "hello" : "Hello!",
+                "welcome": "Welcome to my app!"
+            },
+            "fr": {
+                "hello": "Bonjour!",
+                "welcome": "Bienvenue sur mon appli!"
+            },
+            "it": {
+                "hello": "Ciao!",
+                "welcome": "Benvenuto nella mia app!"
+            }
+        };
+        function changeLanguage(clickedLangChoiceId) {
+            $(function() {
+                $("#greetings-list").children(".greet").each(function() {
+                    let currentlyIteratedGreetKey = $(this).attr("key");
+                    let localizedValForGreetKey = langResourcesArr[clickedLangChoiceId][currentlyIteratedGreetKey];
+                    $(this).text(localizedValForGreetKey);
+                });
+            });
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        // Import language resources from JSON file //////////////////////////////////////
+        // function changeLanguageUsingLangResOnExternalJson(clickedLangChoiceId) {
+        //     $(function() {
+        //         $.getJSON("lang/" + clickedLangChoiceId + ".json", function(jsonData) {
+        //             $("#greetings-list").children(".greet").each(function() {
+        //                 let currentlyIteratedGreetKey = $(this).attr("key");
+        //                 let localizedValForGreetKey = jsonData[currentlyIteratedGreetKey];
+        //                 $(this).text(localizedValForGreetKey);
+        //             });
+        //         });
+        //     });
+        // }
+        /////////////////////////////////////////////////////////////////////////////////
+
+        // Localize through REST API request ////////////////////////////////////////////////////////////////////
+        //TODO: Comment out this function when performing manual (no API help) localizations
+        // Click event handler to send default English language resource JSON file for Google Cloud translate to
+        // localize it to the clicked button's language
+        // $(function() {
+        //     $(".lang-choice").on("click", function() {
+        //         let targetLang = $(this).attr("id");
+        //         $.getJSON("lang/en.json", function(jsonData) {
+        //             localize(targetLang, JSON.stringify(jsonData));
+        //         });
+        //     });
+        // });
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        // Placeholder usage //////////////////////////////////////////////////////////////
+        // $(function() {
+        //     $(".name-submit").on("click", function() {
+        //         let targetLang = $(this).attr("choice");
+        //         let nameInput = $("#name-input").val();
+        //         $.getJSON("lang/en_default.json", function(jsonDataObj) {
+        //             jsonDataObj.toJSON = function() {
+        //                 return {
+        //                     hello: `Hello ${nameInput}!`,
+        //                     welcome: this.welcome
+        //                 };
+        //             };
+        //
+        //             localize(targetLang, JSON.stringify(jsonDataObj));
+        //         });
+        //     });
+        // });
+        //////////////////////////////////////////////////////////////////////////////////
+
+        // Pluralize in multiple locales ////////////////////////////////////////////
+        // let gettext = i18n({});
+        //
+        // $(function() {
+        //     $(".apples-lang-submit").on("click", function () {
+        //         let targetLang = $(this).attr("choice");
+        //
+        //         // Configure gettext.js for an additional locale ////////////////////////////
+        //         // if (targetLang === "fr") {
+        //         //     $.getJSON("lang/apple_count_fr.json", function(json) {
+        //         //         gettext.loadJSON(json);
+        //         //     });
+        //         // }
+        //         /////////////////////////////////////////////////////////////////////////////
+        //
+        //         gettext.setLocale(targetLang);
+        //         displayAppleQuantities();
+        //     });
+        // });
+        //
+        // function displayAppleQuantities() {
+        //     $.getJSON("lang/apple_quantities.json", function(appleQuantitiesJsonObj) {
+        //         let appleQuantitiesArr = appleQuantitiesJsonObj["picked"];
+        //         $("#apple-quantities-list").empty();
+        //         appleQuantitiesArr.forEach(function (currentQuantity) {
+        //             $("#apple-quantities-list").append(gettext.ngettext('%1 apple picked', '%1 apples picked', currentQuantity) + "\n");
+        //         });
+        //     });
+        // }
+        /////////////////////////////////////////////////////////////////////////////
+    </script>
+</head>
+<body>
+    <!-- Manually add language resource JSON ---------------------------------------------------- -->
+    <button id="fr" class="lang-choice" onclick="changeLanguage(this.id)">French</button>
+    <button id="it" class="lang-choice" onclick="changeLanguage(this.id)">Italian</button>
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- Import language resources from JSON file ----------------------------------------------- -->
+<!--    <button id="fr" class="lang-choice" onclick="changeLanguageUsingLangResOnExternalJson(this.id)">French</button>-->
+<!--    <button id="it" class="lang-choice" onclick="changeLanguageUsingLangResOnExternalJson(this.id)">Italian</button>-->
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- Localize through REST API request ------------------------------------------------------ -->
+<!--    <button id="fr" class="lang-choice">French</button>-->
+<!--    <button id="it" class="lang-choice">Italian</button>-->
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- Placeholder usage -------------------------------------------------------- -->
+<!--    <label id="type-name">Please input your name: </label>-->
+<!--    <input type="text" id="name-input">-->
+<!--    <button class="name-submit" choice="en">Greet me in English</button>-->
+<!--    <button class="name-submit" choice="fr">Greet me in French</button>-->
+<!--    <button class="name-submit" choice="it">Greet me in Italian</button>-->
+    <!-- -------------------------------------------------------------------------- -->
+
+    <!-- Pluralize in multiple locales ------------------------------------------ -->
+<!--    <label>Please choose language to list the picked up apple quantities: </label>-->
+<!--    <button class="apples-lang-submit" choice="en">Apple quantity in English</button>-->
+
+    <!-- Configure gettext.js for an additional locale -->
+<!--    <button class="apples-lang-submit" choice="fr">Apple quantity in French</button>-->
+    <!- ---------------------------------------------- -->
+
+<!--    <br><textarea id="apple-quantities-list" rows="10"></textarea>-->
+    <!-- ------------------------------------------------------------------------ -->
+
+    <ul id="greetings-list">
+        <li class="greet" key="hello">Hello!</li>
+        <li class="greet" key="welcome">Welcome to my app!</li>
+    </ul>
+</body>
+</html>
