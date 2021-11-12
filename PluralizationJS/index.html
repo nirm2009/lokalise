@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PluralizationJS</title>
+    <!-- Use Pluralize library/Set placeholders using Pluralize ------------------------------------- -->
+<!--    <script src="pluralize.js"></script>-->
+    <!-- -------------------------------------------------------------------------------------------- -->
+    <!-- Use Numerous library ---------------------------------------------------- -->
+<!--    <script type="module" src="numerous_pluralization.js"></script>-->
+    <!-- ------------------------------------------------------------------------- -->
+    <script>
+        // Simple pluralization ///////////////////////////////////////////////////////
+        function getAppleCount(count) {
+            if (count === 1) {
+                return "1 apple";
+            } else if (count === 0 || count > 1) {
+                return count + " apples";
+            } else {
+                return "That's surely an invalid count of apples!";
+            }
+        }
+        ///////////////////////////////////////////////////////////////////////////////
+
+        // Use Pluralize library /////////////////////////////////////////////////////////////
+        // function getAppleCountUsingPluralizeLib(count) {
+        //     if (count >= 0) {
+        //         return pluralize("apple", count, true);
+        //     } else {
+        //         return "That's surely an invalid count of apples!";
+        //     }
+        // }
+        //////////////////////////////////////////////////////////////////////////////////////
+
+        // Set placeholders using Pluralize ///////////////////////////////////////////
+        // function getCountWithPlaceholdersUsingPluralizeLib(name, item, count) {
+        //     if (count >= 0) {
+        //         let pluralizedItemCountText = pluralize(item, count, true);
+        //         return name + " had " + pluralizedItemCountText;
+        //     } else {
+        //         return "That's surely an invalid count!";
+        //     }
+        // }
+        ///////////////////////////////////////////////////////////////////////////////
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="apple_count_zero"> </td>
+        </tr>
+        <tr>
+            <td id="apple_count_one"> </td>
+        </tr>
+        <tr>
+            <td id="apple_count_few"> </td>
+        </tr>
+        <tr>
+            <td id="apple_count_many"> </td>
+        </tr>
+    </table>
+
+    <!-- Simple pluralization ------------------------------------------------ -->
+    <script>
+        document.getElementById("apple_count_zero").innerHTML = getAppleCount(0);
+        document.getElementById("apple_count_one").innerHTML = getAppleCount(1);
+        document.getElementById("apple_count_few").innerHTML = getAppleCount(2);
+        document.getElementById("apple_count_many").innerHTML = getAppleCount(5);
+    </script>
+    <!-- --------------------------------------------------------------------- -->
+
+    <!-- Use Pluralize library ------------------------------------------------------------ -->
+<!--    <script>-->
+<!--        document.getElementById("apple_count_zero").innerHTML = getAppleCountUsingPluralizeLib(0);-->
+<!--        document.getElementById("apple_count_one").innerHTML = getAppleCountUsingPluralizeLib(1);-->
+<!--        document.getElementById("apple_count_few").innerHTML = getAppleCountUsingPluralizeLib(2);-->
+<!--        document.getElementById("apple_count_many").innerHTML = getAppleCountUsingPluralizeLib(5);-->
+<!--    </script>-->
+    <!-- ---------------------------------------------------------------------------------- -->
+
+    <!-- Use Numerous library -------------------------------------------------------- -->
+<!--    <button id="lang_choice_en">Pluralize in English</button>-->
+<!--    <button id="lang_choice_ru">Pluralize in Russian</button>-->
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <!-- Set placeholders using Pluralize ---------------------------------------------------- -->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <td><label for="name_input">Name: </label></td>-->
+<!--            <td><input type="text" id="name_input"></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td><label for="item_input">Item: </label></td>-->
+<!--            <td><input type="text" id="item_input"></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td><label for="item_count_input">Item count: </label></td>-->
+<!--            <td><input type="text" id="item_count_input"></td>-->
+<!--            <td><button id="placeholder_submit">Submit</button></td>-->
+<!--        </tr>-->
+<!--    </table>-->
+
+<!--    <p id="placeholder_output"></p>-->
+
+<!--    <script>-->
+<!--        document.getElementById("placeholder_submit").onclick = function() {-->
+<!--            let countWithPlaceholders = getCountWithPlaceholdersUsingPluralizeLib(-->
+<!--                document.getElementById('name_input').value,-->
+<!--                document.getElementById('item_input').value,-->
+<!--                +document.getElementById('item_count_input').value-->
+<!--            );-->
+
+<!--            document.getElementById("placeholder_output").innerHTML = countWithPlaceholders;-->
+<!--        };-->
+<!--    </script>-->
+    <!-- ------------------------------------------------------------------------------------- -->
+</body>
+</html>

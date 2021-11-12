@@ -1,0 +1,59 @@
+{
+  "name": "numerous",
+  "version": "2.0.0",
+  "description": "Tiny pluralization library in JavaScript that supports almost any language",
+  "scripts": {
+    "build-locales": "./bin/build-locales.js",
+    "demo:build": "webpack --config ./demo/webpack.config.js",
+    "demo:deploy": "npm run demo:build && gulp demo:deploy",
+    "demo:run": "npm run demo:build && http-server ./demo",
+    "prepublishOnly": "npm run build-locales && npm test",
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "author": "Slava Fomin II <slava@fomin.io>",
+  "repository": "https://github.com/betsol/numerous",
+  "homepage": "https://github.com/betsol/numerous",
+  "bugs": {
+    "url": "https://github.com/betsol/numerous/issues"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "lib/",
+    "locales/",
+    "types/",
+    "README.md",
+    "changelog.md",
+    "index.js"
+  ],
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "l10n",
+    "locales",
+    "localization",
+    "plural",
+    "pluralization",
+    "translation"
+  ],
+  "dependencies": {
+    "is-node": "^1.0.2"
+  },
+  "devDependencies": {
+    "cldr": "^7.1.0",
+    "del": "^6.0.0",
+    "expect.js": "^0.3.1",
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4",
+    "js-beautify": "^1.14.0",
+    "mocha": "^9.0.3",
+    "ncp": "^2.0.0",
+    "p-limit": "^3.1.0",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

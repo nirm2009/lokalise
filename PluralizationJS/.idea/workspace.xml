@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2913a18a-e1e5-4d54-9798-b097395f0c12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../BeegoI18n/.idea/BeegoI18n.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BeegoI18n/conf/locale_en-US.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BeegoI18n/conf/locale_fr-FR.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BeegoI18n/controllers/welcome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BeegoI18n/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BeegoI18n/views/welcome.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GoI18n/.idea/GoI18n.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GoI18n/goi18n.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GoI18n/resources/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GoI18n/resources/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaLocalDateL10n/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaLocalDateL10n/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/.idea/JsonL10n.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/googleTranslate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/lang/apple_count_fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/lang/apple_quantities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/lang/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/lang/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JsonL10n/lang/it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/.idea/BeegoI18n.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/conf/en-US.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/conf/fr-FR.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/controllers/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/controllers/datetime.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/controllers/thanks.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/controllers/welcome.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/views/datetime.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/views/thanks.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../onarticle/BeegoI18n/views/welcome.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonL10n/.idea/JsonL10n.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonL10n/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonL10n/lang/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsonL10n/lang/it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PluralizationJS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numerous_pluralization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pluralize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PluralizationJava/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PluralizationJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PluralizationJava/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PluralizationJava/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PluralizationJava/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PluralizationJava/src/main/resources/pattern_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PluralizationJava/src/main/resources/pattern_fr.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76">
+              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="71" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numerous_pluralization.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numerous-master/lib/numerous.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pluralize</find>
+      <find>Set placeholders</find>
+      <find>Use Pluralize library</find>
+      <find>Use Numerous library</find>
+      <find>Set placeholders using Pluralize</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pluralize.js" />
+        <option value="$PROJECT_DIR$/numerous_pluralization.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1023" />
+    <option name="y" value="-1035" />
+    <option name="width" value="899" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PluralizationJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PluralizationJS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/LOCAL-proj/LOCAL-proj-MYGITHUB/numerous" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\My Drive\FreeLa\Lokalise\proj\this-goes-to-github-later-on\PluralizationJS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My Drive\FreeLa\Lokalise\proj\this-goes-to-github-later-on\PluralizationJS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PluralizationJS/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2913a18a-e1e5-4d54-9798-b097395f0c12" name="Default Changelist" comment="" />
+      <created>1636112759865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636112759865</updated>
+      <workItem from="1636112761370" duration="15640000" />
+      <workItem from="1636614618177" duration="11000" />
+      <workItem from="1636614717606" duration="3564000" />
+      <workItem from="1636702421601" duration="595000" />
+      <workItem from="1636729371730" duration="2454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22264000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="141" y="-1088" width="1787" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20526014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pluralize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numerous-master/lib/numerous.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numerous_pluralization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
