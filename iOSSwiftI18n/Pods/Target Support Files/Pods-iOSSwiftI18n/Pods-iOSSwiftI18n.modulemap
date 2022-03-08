@@ -1,0 +1,6 @@
+framework module Pods_iOSSwiftI18n {
+  umbrella header "Pods-iOSSwiftI18n-umbrella.h"
+
+  export *
+  module * { export * }
+}

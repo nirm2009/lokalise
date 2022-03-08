@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSSwiftI18n/Pods-iOSSwiftI18n-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework
+${PODS_ROOT}/Lokalise/Lokalise.framework

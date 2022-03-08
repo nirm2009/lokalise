@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		58BADA2E6AF091DA3F6549904CCC4CE5 /* Lokalise */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5AA34D15701D9F1727AF42EF1797DE3F /* Build configuration list for PBXAggregateTarget "Lokalise" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Lokalise;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		12E30A40622C976C93A3F89E7ABD7803 /* Localize_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F14C7F04012DDD46AB3D699896ED769 /* Localize_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD1F75AF265FC1792E366CF7088F722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2536BAD42EA225D5E4F4A0FC5F607412 /* IBDesignable+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1095A5B0D4C78ACA0FAEF56B60793627 /* IBDesignable+Localize.swift */; };
+		2D20198CA442646FCA66D13B644D094F /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B809422EBB273E477CFBA37523AD49B /* Localize.swift */; };
+		6BC2CDE88764C82E4E152AC30F78005A /* Pods-iOSSwiftI18n-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A922E9825D70F19B69E253E16DAFE89 /* Pods-iOSSwiftI18n-dummy.m */; };
+		78EDF78031C344B72FB46FC387212F7A /* String+LocalizeTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671BC680314DBFD88E035E21D8DD6CDF /* String+LocalizeTableName.swift */; };
+		969B562DC0CF88F9DBB091142F71C958 /* Localize-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 278CA59F7F70759FE725D13B35809C76 /* Localize-Swift-dummy.m */; };
+		DA8B49C3102A9DEEBD3EED3F9C9D8C58 /* String+LocalizedBundleTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DEF30979A5B6FB156085B028453F2E /* String+LocalizedBundleTableName.swift */; };
+		DBCE95D6CF79B3C56B9AC65C32F573E6 /* Pods-iOSSwiftI18n-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 413FE1B97980EE892BA39DBF5D79016C /* Pods-iOSSwiftI18n-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E24AC6F6F73A187E83A595B87C630816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E6CEE5BDB2817BA75C203FB44500487E /* String+LocalizeBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DDC2C336746C6BE97E09BB829115EE /* String+LocalizeBundle.swift */; };
+		F2B13D13FC136DC085F544F488FA5A2A /* Localize-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF7E40B10EF9283621D2A000AFBCFB4 /* Localize-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44FD274B370F4ECC2EA0F36BA012F52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58BADA2E6AF091DA3F6549904CCC4CE5;
+			remoteInfo = Lokalise;
+		};
+		FB0219B742DDA18BD3A2C66FDDE4D2C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340DDF7DB405EDF7F01580175FF090DF;
+			remoteInfo = "Localize-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09994756C3BE7D45B3578D392458173E /* Localize-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Localize-Swift-prefix.pch"; sourceTree = "<group>"; };
+		1095A5B0D4C78ACA0FAEF56B60793627 /* IBDesignable+Localize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IBDesignable+Localize.swift"; path = "Sources/UI/IBDesignable+Localize.swift"; sourceTree = "<group>"; };
+		1A922E9825D70F19B69E253E16DAFE89 /* Pods-iOSSwiftI18n-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSSwiftI18n-dummy.m"; sourceTree = "<group>"; };
+		278CA59F7F70759FE725D13B35809C76 /* Localize-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Localize-Swift-dummy.m"; sourceTree = "<group>"; };
+		2BF7E40B10EF9283621D2A000AFBCFB4 /* Localize-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Localize-Swift-umbrella.h"; sourceTree = "<group>"; };
+		2ECF488EFD24A1B916546FB54E5E6827 /* Localize-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Localize-Swift"; path = Localize_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F14C7F04012DDD46AB3D699896ED769 /* Localize_Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Localize_Swift.h; path = Sources/Localize_Swift.h; sourceTree = "<group>"; };
+		413FE1B97980EE892BA39DBF5D79016C /* Pods-iOSSwiftI18n-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSSwiftI18n-umbrella.h"; sourceTree = "<group>"; };
+		4154B7637E99FF2AE0E13B41E1A39F15 /* Localize-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Localize-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		4B809422EBB273E477CFBA37523AD49B /* Localize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localize.swift; path = Sources/Localize.swift; sourceTree = "<group>"; };
+		4DC74195284388E8948908421A223F72 /* Lokalise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lokalise.debug.xcconfig; sourceTree = "<group>"; };
+		581C2A0F10E9EFFAEEC02DDAFB0AF6D8 /* Pods-iOSSwiftI18n-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSSwiftI18n-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60ACC0841A7AD1BA0B40A41F8BA0EB0D /* Pods-iOSSwiftI18n-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSSwiftI18n-frameworks.sh"; sourceTree = "<group>"; };
+		60DDC2C336746C6BE97E09BB829115EE /* String+LocalizeBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LocalizeBundle.swift"; path = "Sources/String+LocalizeBundle.swift"; sourceTree = "<group>"; };
+		671BC680314DBFD88E035E21D8DD6CDF /* String+LocalizeTableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LocalizeTableName.swift"; path = "Sources/String+LocalizeTableName.swift"; sourceTree = "<group>"; };
+		6B4E1D684C7CD0CF468E318FDFDE9C99 /* Localize-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Localize-Swift.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7361A724F97282391B4C8AAFA18322C6 /* Pods-iOSSwiftI18n.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSSwiftI18n.modulemap"; sourceTree = "<group>"; };
+		7E9B4F52EDA26A64ABCBCEC96E3975A2 /* Pods-iOSSwiftI18n.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSSwiftI18n.debug.xcconfig"; sourceTree = "<group>"; };
+		8D47D0ED74782147128E942160D2B183 /* Lokalise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lokalise.framework; sourceTree = "<group>"; };
+		915C4147A5BC5A1A9B255894CB59D700 /* Pods-iOSSwiftI18n */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOSSwiftI18n"; path = Pods_iOSSwiftI18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11139B88F35A2AA1B98E96BD36C3683 /* Localize-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Localize-Swift-Info.plist"; sourceTree = "<group>"; };
+		A53546D8D0DB2DD5331785B2D5436463 /* Pods-iOSSwiftI18n-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSSwiftI18n-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7DEF30979A5B6FB156085B028453F2E /* String+LocalizedBundleTableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LocalizedBundleTableName.swift"; path = "Sources/String+LocalizedBundleTableName.swift"; sourceTree = "<group>"; };
+		B732BAD97FAFB832BE2F91D8C50E13A5 /* Lokalise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lokalise.release.xcconfig; sourceTree = "<group>"; };
+		BB12CD2C5DDCAB6CBD9549134F691809 /* Pods-iOSSwiftI18n.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSSwiftI18n.release.xcconfig"; sourceTree = "<group>"; };
+		C8737B7420C1E921835F59D3FC3D11D1 /* Pods-iOSSwiftI18n-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSSwiftI18n-Info.plist"; sourceTree = "<group>"; };
+		F8D878717F5F5BBEA682DB2BBAB65832 /* Localize-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Localize-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BD842CDAF183AF3309FDBB7644D66F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24AC6F6F73A187E83A595B87C630816 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF94C146CE93BF0CD2AFEB1965780919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD1F75AF265FC1792E366CF7088F722 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16FBE70308F769F28F8E9ABA6338C9A1 /* LocalizeSwiftCore */ = {
+			isa = PBXGroup;
+			children = (
+				4B809422EBB273E477CFBA37523AD49B /* Localize.swift */,
+				3F14C7F04012DDD46AB3D699896ED769 /* Localize_Swift.h */,
+				60DDC2C336746C6BE97E09BB829115EE /* String+LocalizeBundle.swift */,
+				A7DEF30979A5B6FB156085B028453F2E /* String+LocalizedBundleTableName.swift */,
+				671BC680314DBFD88E035E21D8DD6CDF /* String+LocalizeTableName.swift */,
+			);
+			name = LocalizeSwiftCore;
+			sourceTree = "<group>";
+		};
+		1CDB42745B7BD7652FF46DC0605FBD33 /* Lokalise */ = {
+			isa = PBXGroup;
+			children = (
+				937E24DB4CAA84774300C379D63AFDE7 /* Frameworks */,
+				A3E5610344AF9FA537367D3DCABE32D9 /* Support Files */,
+			);
+			name = Lokalise;
+			path = Lokalise;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E9C6DE701A8515316A08010ECCD8A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECF488EFD24A1B916546FB54E5E6827 /* Localize-Swift */,
+				915C4147A5BC5A1A9B255894CB59D700 /* Pods-iOSSwiftI18n */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7215A8AD3D94EC2C402762BBDEF365F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F740E8391B6F25AA4861233348DFE52B /* Localize-Swift */,
+				1CDB42745B7BD7652FF46DC0605FBD33 /* Lokalise */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86E9FB140B982805B2957EC01F7DA284 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E1D684C7CD0CF468E318FDFDE9C99 /* Localize-Swift.modulemap */,
+				278CA59F7F70759FE725D13B35809C76 /* Localize-Swift-dummy.m */,
+				A11139B88F35A2AA1B98E96BD36C3683 /* Localize-Swift-Info.plist */,
+				09994756C3BE7D45B3578D392458173E /* Localize-Swift-prefix.pch */,
+				2BF7E40B10EF9283621D2A000AFBCFB4 /* Localize-Swift-umbrella.h */,
+				F8D878717F5F5BBEA682DB2BBAB65832 /* Localize-Swift.debug.xcconfig */,
+				4154B7637E99FF2AE0E13B41E1A39F15 /* Localize-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Localize-Swift";
+			sourceTree = "<group>";
+		};
+		937E24DB4CAA84774300C379D63AFDE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D47D0ED74782147128E942160D2B183 /* Lokalise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3E5610344AF9FA537367D3DCABE32D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC74195284388E8948908421A223F72 /* Lokalise.debug.xcconfig */,
+				B732BAD97FAFB832BE2F91D8C50E13A5 /* Lokalise.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Lokalise";
+			sourceTree = "<group>";
+		};
+		B57B7EC5A29279785FA54331FD9043CA /* Pods-iOSSwiftI18n */ = {
+			isa = PBXGroup;
+			children = (
+				7361A724F97282391B4C8AAFA18322C6 /* Pods-iOSSwiftI18n.modulemap */,
+				581C2A0F10E9EFFAEEC02DDAFB0AF6D8 /* Pods-iOSSwiftI18n-acknowledgements.markdown */,
+				A53546D8D0DB2DD5331785B2D5436463 /* Pods-iOSSwiftI18n-acknowledgements.plist */,
+				1A922E9825D70F19B69E253E16DAFE89 /* Pods-iOSSwiftI18n-dummy.m */,
+				60ACC0841A7AD1BA0B40A41F8BA0EB0D /* Pods-iOSSwiftI18n-frameworks.sh */,
+				C8737B7420C1E921835F59D3FC3D11D1 /* Pods-iOSSwiftI18n-Info.plist */,
+				413FE1B97980EE892BA39DBF5D79016C /* Pods-iOSSwiftI18n-umbrella.h */,
+				7E9B4F52EDA26A64ABCBCEC96E3975A2 /* Pods-iOSSwiftI18n.debug.xcconfig */,
+				BB12CD2C5DDCAB6CBD9549134F691809 /* Pods-iOSSwiftI18n.release.xcconfig */,
+			);
+			name = "Pods-iOSSwiftI18n";
+			path = "Target Support Files/Pods-iOSSwiftI18n";
+			sourceTree = "<group>";
+		};
+		C3AB1E0A90780D497925499DEF550168 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57B7EC5A29279785FA54331FD9043CA /* Pods-iOSSwiftI18n */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7215A8AD3D94EC2C402762BBDEF365F3 /* Pods */,
+				5E9C6DE701A8515316A08010ECCD8A1C /* Products */,
+				C3AB1E0A90780D497925499DEF550168 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED018A01F5F23417592E1949B8F0DE66 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1095A5B0D4C78ACA0FAEF56B60793627 /* IBDesignable+Localize.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		F740E8391B6F25AA4861233348DFE52B /* Localize-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				16FBE70308F769F28F8E9ABA6338C9A1 /* LocalizeSwiftCore */,
+				86E9FB140B982805B2957EC01F7DA284 /* Support Files */,
+				ED018A01F5F23417592E1949B8F0DE66 /* UIKit */,
+			);
+			name = "Localize-Swift";
+			path = "Localize-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3868DB78E1BB6F3A28F482C27A2949C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B13D13FC136DC085F544F488FA5A2A /* Localize-Swift-umbrella.h in Headers */,
+				12E30A40622C976C93A3F89E7ABD7803 /* Localize_Swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A902875FBE4DE5322B14B44AFD8B4DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCE95D6CF79B3C56B9AC65C32F573E6 /* Pods-iOSSwiftI18n-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		340DDF7DB405EDF7F01580175FF090DF /* Localize-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1AE011A3CB0E0236AFF43AB1AB4E7E /* Build configuration list for PBXNativeTarget "Localize-Swift" */;
+			buildPhases = (
+				3868DB78E1BB6F3A28F482C27A2949C6 /* Headers */,
+				4E2F1D7B4BCC7AB6FAAD5CB96311BBDD /* Sources */,
+				CF94C146CE93BF0CD2AFEB1965780919 /* Frameworks */,
+				2DE7D6A815071E82561C30F6721DCCC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Localize-Swift";
+			productName = Localize_Swift;
+			productReference = 2ECF488EFD24A1B916546FB54E5E6827 /* Localize-Swift */;
+			productType = "com.apple.product-type.framework";
+		};
+		917BF329110D5EA1B4488FB038ECC66B /* Pods-iOSSwiftI18n */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD990830E0B3BAD2BAFDFBE43DF55A3 /* Build configuration list for PBXNativeTarget "Pods-iOSSwiftI18n" */;
+			buildPhases = (
+				A902875FBE4DE5322B14B44AFD8B4DE2 /* Headers */,
+				CB7F65468F38B9BD55EB77AF91E44412 /* Sources */,
+				1BD842CDAF183AF3309FDBB7644D66F7 /* Frameworks */,
+				ACFDCBE3D83F6F0E435049008BF926A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA3E401E6A08B80E7E5FA031DCB0DC1 /* PBXTargetDependency */,
+				BC32E2081172193622A982A4BFEDBE7F /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSSwiftI18n";
+			productName = Pods_iOSSwiftI18n;
+			productReference = 915C4147A5BC5A1A9B255894CB59D700 /* Pods-iOSSwiftI18n */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E9C6DE701A8515316A08010ECCD8A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				340DDF7DB405EDF7F01580175FF090DF /* Localize-Swift */,
+				58BADA2E6AF091DA3F6549904CCC4CE5 /* Lokalise */,
+				917BF329110D5EA1B4488FB038ECC66B /* Pods-iOSSwiftI18n */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE7D6A815071E82561C30F6721DCCC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFDCBE3D83F6F0E435049008BF926A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E2F1D7B4BCC7AB6FAAD5CB96311BBDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2536BAD42EA225D5E4F4A0FC5F607412 /* IBDesignable+Localize.swift in Sources */,
+				2D20198CA442646FCA66D13B644D094F /* Localize.swift in Sources */,
+				969B562DC0CF88F9DBB091142F71C958 /* Localize-Swift-dummy.m in Sources */,
+				E6CEE5BDB2817BA75C203FB44500487E /* String+LocalizeBundle.swift in Sources */,
+				DA8B49C3102A9DEEBD3EED3F9C9D8C58 /* String+LocalizedBundleTableName.swift in Sources */,
+				78EDF78031C344B72FB46FC387212F7A /* String+LocalizeTableName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7F65468F38B9BD55EB77AF91E44412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC2CDE88764C82E4E152AC30F78005A /* Pods-iOSSwiftI18n-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA3E401E6A08B80E7E5FA031DCB0DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Localize-Swift";
+			target = 340DDF7DB405EDF7F01580175FF090DF /* Localize-Swift */;
+			targetProxy = FB0219B742DDA18BD3A2C66FDDE4D2C4 /* PBXContainerItemProxy */;
+		};
+		BC32E2081172193622A982A4BFEDBE7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lokalise;
+			target = 58BADA2E6AF091DA3F6549904CCC4CE5 /* Lokalise */;
+			targetProxy = 44FD274B370F4ECC2EA0F36BA012F52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AC423FD91579B7C9C34FE74E46F0BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9B4F52EDA26A64ABCBCEC96E3975A2 /* Pods-iOSSwiftI18n.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSSwiftI18n/Pods-iOSSwiftI18n-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSSwiftI18n/Pods-iOSSwiftI18n.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52FA2C8CCA8EA9BC4F5B227C3FC5B2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B732BAD97FAFB832BE2F91D8C50E13A5 /* Lokalise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FB5477C9BED23648F5743FE0325C295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D878717F5F5BBEA682DB2BBAB65832 /* Localize-Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Localize-Swift/Localize-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Localize-Swift/Localize-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Localize-Swift/Localize-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Localize_Swift;
+				PRODUCT_NAME = Localize_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A693C3E3010782FA3EB508FB8FB90A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4154B7637E99FF2AE0E13B41E1A39F15 /* Localize-Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Localize-Swift/Localize-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Localize-Swift/Localize-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Localize-Swift/Localize-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Localize_Swift;
+				PRODUCT_NAME = Localize_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBD2D30ACC3C84709104E7C423300A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BFD6ABB12370750A38F9AD036542EC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB12CD2C5DDCAB6CBD9549134F691809 /* Pods-iOSSwiftI18n.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOSSwiftI18n/Pods-iOSSwiftI18n-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOSSwiftI18n/Pods-iOSSwiftI18n.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E96D82E8F1F6D419E5F08FFB38E3BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F62F1BDC45424E4A103E5064E25D92DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC74195284388E8948908421A223F72 /* Lokalise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD990830E0B3BAD2BAFDFBE43DF55A3 /* Build configuration list for PBXNativeTarget "Pods-iOSSwiftI18n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC423FD91579B7C9C34FE74E46F0BA5 /* Debug */,
+				BFD6ABB12370750A38F9AD036542EC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD2D30ACC3C84709104E7C423300A4E /* Debug */,
+				E96D82E8F1F6D419E5F08FFB38E3BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA34D15701D9F1727AF42EF1797DE3F /* Build configuration list for PBXAggregateTarget "Lokalise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62F1BDC45424E4A103E5064E25D92DE /* Debug */,
+				52FA2C8CCA8EA9BC4F5B227C3FC5B2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1AE011A3CB0E0236AFF43AB1AB4E7E /* Build configuration list for PBXNativeTarget "Localize-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB5477C9BED23648F5743FE0325C295 /* Debug */,
+				9A693C3E3010782FA3EB508FB8FB90A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

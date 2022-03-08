@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.3.1'
+
+target 'iOSSwiftI18n' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for iOSSwiftI18n
+  pod 'Localize-Swift', '~> 3.2'
+  pod 'Lokalise', '~> 0.10.0'
+
+end

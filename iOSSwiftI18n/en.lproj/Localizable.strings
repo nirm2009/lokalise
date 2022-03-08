@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  iOSSwiftI18n
+
+  Created by Dasun on 2022-03-06.
+  
+*/
+
+"welcome_screen_title" = "Welcome";
+"login_button" = "Log in";
